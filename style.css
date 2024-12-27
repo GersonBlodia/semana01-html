@@ -1,0 +1,81 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del header */
+header {
+    background-color: #999;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #ff00ff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+/* Estilos del sidebar */
+aside {
+    flex: 1;
+    background-color: #008080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilos del contenido principal */
+main {
+    flex: 3;
+    background-color: #90ee90;
+    padding: 1rem;
+}
+
+article {
+    background-color: #4682b4;
+    color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
